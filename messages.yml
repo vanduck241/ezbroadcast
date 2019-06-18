@@ -1,0 +1,8 @@
+# EZBroadcast Messages
+# This is the default messages configuration.
+Prefix: '&e&l(EZBC)&e'
+NO-PERMISSION: You do not have permission to execute this command.
+PREVIEW-CONSOLE: "You are only able to preview them in-game."
+INVALID-CMD: Command not found.
+INVALID-ARGS: Invalid arguments.
+CONFIG-RELOAD: You have successfully reloaded the configuration.

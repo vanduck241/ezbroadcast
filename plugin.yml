@@ -1,0 +1,11 @@
+name: EZBroadcast
+version: 1.0.0
+author: HVDuck
+main: com.hvduck.ezbroadcast.Main
+depend: [Essentials]
+
+commands:
+  ezbc:
+    description: Main command for EZBroadcast
+    aliases: [mannouncements, announcer, announcement]
+    permission: ezbc.admin

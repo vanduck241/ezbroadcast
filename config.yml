@@ -1,0 +1,48 @@
+# EZBroadcast Configuration
+# This is the default configuration.
+# Admin permission: ezbc.admin
+Options:
+  #Delay in-between announcements in ticks. For example: 900 ticks = 45 seconds
+  AnnouncementInterval: 900
+  #Help messages
+  Help:
+  - ""
+  - "&b&lEZBroadcast Commands"
+  - ""
+  - "&f/ezbc preview <name>"
+  - "&7Display an announcement just for yourself."
+  - ""
+  - "&f/ezbc reload"
+  - "&7Reload the configuration."
+  - ""
+  - "&f/ezbc display <name>"
+  - "&7Display an announcement server-wide."
+  - ""
+#Announcements section
+Announcements:
+  #Announcement name
+  Test:
+  #Sound when the announcement come up
+    Sound:
+      #Enable?
+      enabled: true
+      #Bukkit sounds name, you can find all sounds name here: 
+      name: CHICKEN_EGG_POP
+      #Volume
+      volume: 1.0
+      #Pitch
+      pitch: 1.5
+    #Order of the announcement
+    order: 1
+    #Centered announcement? For example, if it true: '          The announcement should be like this          '
+    #                                                'And what it looks like when centered: false             '
+    centered: true
+    #You can add many lines as you want
+    lines:
+    - ""
+    - "&b&lServername Announcements"
+    - "&r"
+    - "&fThis is just a test announcement"
+    - "&fyou can configure it easly!"
+    - ""
+  #Add more announcements
